@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendataan</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <div class="form_pengisian">
+        <h1>Data Diri</h1>
+        <form class="npm">
+            <label for="npm">NPM: </label>
+            <input type="text" id="npm" name="npm"><br>
+        </form>
+
+        <form class="name">
+            <label for="name">Nama Lengkap: </label>
+            <input type="text" id="name" name="name"><br>
+        </form>
+
+        <form class="address">
+            <label for="address">Alamat: </label>
+            <input type="text" id="address" name="address"><br>
+        </form>
+
+        <form class="JK">
+            <label for="JK">Jenis Kelamin: </label><br>
+            <input type="radio" id="Laki-Laki" name="JK" value="Laki-Laki">
+            <label for="Laki-Laki">Laki-Laki</label><br>
+            <input type="radio" id="Perempuan" name="JK" value="Perempuan">
+            <label for="Perempuan">Perempuan</label><br>
+        </form>
+
+        <form class="angkatan">
+            <label for="angkatan">Angkatan: </label><br>
+            <input type="radio" id="2021" name="angkatan" value="2021">
+            <label for="2021">2021</label><br>
+            <input type="radio" id="2022" name="angkatan" value="2022">
+            <label for="2022">2022</label><br>
+            <input type="radio" id="2023" name="angkatan" value="2023">
+            <label for="2023">2023</label><br>
+        </form>
+
+        <form class="kelas">
+            <label for="kelas">Kelas: </label><br>
+            <input type="radio" id="A" name="kelas" value="A">
+            <label for="A">A</label><br>
+            <input type="radio" id="B" name="kelas" value="B">
+            <label for="B">B</label><br>
+        </form>
+
+        <form class="hobi">
+            <label for="hobi">Hobi: </label><br>
+            <input type="checkbox" id="Berenang" name="hobi" value="Menonton">
+            <label for="Berenang">Berenang</label><br>
+            <input type="checkbox" id="Bermain" name="hobi" value="Bermain">
+            <label for="Bermain">Bermain</label><br>
+            <input type="checkbox" id="MenontonFilm" name="hobi" value="MenontonFilm">
+            <label for="MenontonFilm">Menonton Film</label><br>
+            <input type="checkbox" id="Lainnya" name="hobi" value="Lainnya">
+            <label for="Lainnya">Lainnya:</label><br>
+            <input type="text" id="Lainnya" name="Lainnya">
+        </form>
+
+        <form class="submit">
+            <button type="submit" onclick="alert('Terima kasih sudah mengisi!')">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
