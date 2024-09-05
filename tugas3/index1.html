@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Angka Ke Huruf</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Website Konversi Angka Ke Huruf</h1>
+    <div class="convert">
+        <form id="conversion">
+            <label for="in">Masukkan angka untuk dikonversi</label><br>
+            <input type="number" id="in" required><br><br>
+            <button type="submit">Convert</button>
+        </form>
+        <p>Hasil Konversi : <span id="hasil"></span></p>
+        <script src="script1.js"></script>
+    </div>
+
+    <div class="info">
+        <h2>Catatan Konversi:</h2>
+        <p>0 - 40 = E</p>
+        <p>41 - 55 = D</p>
+        <p>56 - 60 = C</p>
+        <p>61 - 65 = BC</p>
+        <p>66 - 70 = B</p>
+        <p>71 - 80 = AB</p>
+        <p>81 - 100 = A</p>
+    </div>
+</body>
+</html>

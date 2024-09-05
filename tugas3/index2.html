@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <div class="calc">
+        <form id="kalkulator">
+            <label for="angka1">Masukkan angka pertama</label><br>
+            <input type="number" id="angka1" name="angka1" required><br><br>
+
+            <label for="angka2">Masukkan angka kedua</label><br>
+            <input type="number" id="angka2" name="angka2" required><br><br>
+            
+            <label for="op">Pilih operator yang akan dikerjakan</label><br>
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">*</button>
+            <button type="button" class="operator" value="/">/</button>
+            <button type="button" class="operator" value="%">%</button>
+        </form>
+    </div>
+
+    <div class="output">
+        <p>Hasil Perhitungan</p>
+        <p><span id="hasil"></span></p>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
