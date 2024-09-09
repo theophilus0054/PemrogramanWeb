@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: black;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
+    max-width: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: linear-gradient(to left, lightblue 20%, aliceblue 50%, lightblue 80%);
+}
+
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px rgb(226, 208, 208);
+}
+
+article {
+    background-color: wheat;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(240, 229, 210);
+    max-width: 1200px;
+}
+
+main {
+    background-color: rgb(255, 228, 146);
+    box-shadow: 5px 5px rgb(255, 237, 195);
+    padding-bottom: 50px;
+    padding: 0px 0px 20px 20px;
+    border: none;
+}
+
+main a {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
